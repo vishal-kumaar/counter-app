@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+  background-color: #FF4957;
+  width: fit-content;
+  margin: 4rem auto;
+  padding: 4rem;
+  border-radius: 10px;
+}
+
+.number{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.buttons{
+  margin-top: 2rem;
+  display: flex;
+  gap: 10px;
+}
+
+button{
+  font-size: 17px;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  cursor: pointer;
+}
